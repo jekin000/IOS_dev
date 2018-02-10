@@ -1,5 +1,6 @@
 #import <Foundation/Foundation.h>
 #import "ZHQStudent.h"
+#import "LZXSum.h"
 
 int main (int argc, const char * argv[])
 {
@@ -10,6 +11,11 @@ int main (int argc, const char * argv[])
 	//[zs setAge:20];
 	[zs setName:@"Zhang San" andAge:20];
 	[zs say];
+
+	LZXSum *sum = [[LZXSum alloc]init];
+	[sum setN:100];
+	int s = [sum sum];
+	NSLog(@"Sum 100 = %d",s);
 
 	[pool drain];
 	return 0;

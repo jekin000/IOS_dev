@@ -1,1 +1,1 @@
-git commit -m "[03] multi paramter"
+git commit -m "[04] sum class"
