@@ -6,5 +6,7 @@
 	int  		age;
 }
 -(void) say;
+-(void) setName:(NSString *)_name;
+-(void) setAge:(int)_age;
 @end
 
