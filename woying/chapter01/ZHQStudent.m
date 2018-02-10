@@ -14,6 +14,10 @@
 {
 	age = _age;
 }
-
+-(void) setName:(NSString *)_name andAge:(int)_age
+{
+	age = _age;
+	name = _name;
+}
 @end
 
