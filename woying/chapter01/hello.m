@@ -6,9 +6,11 @@ int main (int argc, const char * argv[])
 {
 	NSAutoreleasePool * pool = [[NSAutoreleasePool alloc] init];
 
-	Student *zs = [[Student alloc]init];
+	//Student *zs = [[Student alloc]init];
+	Student *zs = [Student student];
 	//[zs setName:@"Zhang San"];
 	//[zs setAge:20];
+	[zs setGender:1];
 	[zs setName:@"Zhang San" andAge:20];
 	[zs say];
 

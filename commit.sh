@@ -1,1 +1,1 @@
-git commit -m "[04] sum class"
+git commit -m "[05] self and factory class"
